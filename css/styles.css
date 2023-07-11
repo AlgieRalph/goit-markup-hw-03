@@ -1,0 +1,218 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* General Styles */
+
+.list {
+  list-style: none;
+}
+
+.nav-menu .page {
+  text-decoration: none;
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.project {
+  text-decoration: none;
+}
+
+.benefits .title {
+  color: var(--navyblue);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.benefits .description {
+  color: var(--slate);
+  line-height: 1.71;
+}
+
+.section-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.bg-team {
+  background-color: var(--cloud);
+}
+
+.team .name,
+.team .position {
+  color: var(--navyblue);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team .position {
+  color: var(--slate);
+}
+
+/* End of General Styles */
+
+/* Studio */
+
+/* Header */
+
+.logo-link {
+  font-size: 0;
+  text-decoration: none;
+}
+
+.logo-link > span {
+  font-size: 26px;
+}
+
+.logo,
+.studio,
+.studio-2 {
+  display: inline-block;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio {
+  color: var(--navyblue, #2e2f42);
+  font-weight: 700;
+}
+
+.page {
+  color: var(--navyblue, #2e2f42);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
+  color: var(--iris);
+}
+
+.contacts-menu .item {
+  color: var(--slate);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.bg-hero {
+  background: var(--navy-blue);
+}
+
+/* Section 1 */
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  border-color: transparent;
+  font-family: inherit;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button.primary {
+  color: white;
+  background: var(--iris);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background: var(--ocean);
+}
+
+/* Footer */
+
+.page-footer.bg-footer {
+  background: var(--navy-blue);
+}
+
+.page-footer.bg-footer .studio-2 {
+  color: var(--cloud);
+}
+
+.footer-description {
+  color: var(--cloud);
+}
+
+/* Portfolio */
+
+/* Buttons */
+
+.button.filter {
+  color: var(--iris);
+  background-color: #f5f5fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
+  background: var(--ocean);
+  color: var(--cloud);
+}
+
+.project .name {
+  color: var(--navy-blue);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .type {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
