@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com " />
+    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -19,32 +21,34 @@
     <!-- HEADER -->
 
     <header class="page-header">
-      <nav class="nav-header">
-        <a class="logo-link" href="#"
-          ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
-        >
-        <ul class="nav-menu list">
-          <li>
-            <a class="page current" href="./index.html">Studio</a>
+      <div class="container menu">
+        <nav class="navigation">
+          <a class="logo-link" href="#"
+            ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
+          >
+          <ul class="nav-menu list">
+            <li class="item">
+              <a class="page current link" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="page link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item">
+              <a class="page link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-menu list">
+          <li class="contact link">
+            <a class="item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a class="page" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="page" href="#">Contacts</a>
+          <li class="contact link">
+            <a class="item" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contacts-menu list">
-        <li>
-          <a class="item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="item" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!-- MAIN -->
@@ -53,8 +57,12 @@
       <!-- Secton 1 -->
 
       <section class="hero bg-hero">
-        <h1 class="hero-title">Effective Solutions <br />for Your Business</h1>
-        <button class="button primary" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Effective Solutions <br />for Your Business
+          </h1>
+          <button class="button primary" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- Section 2 -->
@@ -62,7 +70,7 @@
       <section class="section">
         <div class="container">
           <ul class="benefits list">
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business <br />problem to walk away
@@ -70,7 +78,7 @@
                 perfect and creative solution.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the <br />brand's audience for the best
@@ -78,14 +86,14 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that <br />present the strongest
                 digital growth <br />opportunities and minimize risk.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital <br />experiences. We bring
@@ -98,32 +106,35 @@
 
       <!-- Section 3 -->
 
-      <section class="section">
+      <section class="section no-top-padding">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="images/monitor.jpg"
                 alt="Computer Monitor"
                 width="360"
                 height="300"
+                class="image"
               />
             </li>
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="images/cellphone-screens.jpg"
                 alt="Multiple Cellphone Screens"
                 width="360"
                 height="300"
+                class="image"
               />
             </li>
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="images/cellphone.jpg"
                 alt="Holding a Cellphone"
                 width="360"
                 height="300"
+                class="image"
               />
             </li>
           </ul>
@@ -136,7 +147,7 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li class="team-item">
+            <li class="item">
               <img
                 src="images/mark-guerrero.jpg"
                 alt="Mark Guerrero"
@@ -146,7 +157,7 @@
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li class="team-item">
+            <li class="item">
               <img
                 src="images/tom-ford.jpg"
                 alt="Tom Ford"
@@ -156,7 +167,7 @@
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developer</p>
             </li>
-            <li class="team-item">
+            <li class="item">
               <img
                 src="images/camila-garcia.jpg"
                 alt="Camila Garcia"
@@ -166,7 +177,7 @@
               <h3 class="name">Camila Garcia</h3>
               <p class="position">Marketing</p>
             </li>
-            <li class="team-item">
+            <li class="item">
               <img
                 src="images/daniel-wilson.jpg"
                 alt="Daniel Wilson"
@@ -184,9 +195,10 @@
     <!-- FOOTER -->
 
     <footer class="page-footer bg-footer">
-      <div>
+      <div class="container">
         <a class="logo-link" href="#"
-          ><span class="logo">WEB</span><span class="studio-2">STUDIO</span></a
+          ><span class="logo">WEB</span
+          ><span class="studio-2 footer">STUDIO</span></a
         >
         <p class="footer-description">
           Increase the flow of customers and <br />
